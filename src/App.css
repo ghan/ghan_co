@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #home h1 {
   font-family: 'Forum', cursive;
-  opacity: 22%;
+  opacity: 0.22;
   font-size: 15vw;
   margin-top: 10rem;
   margin-bottom: 1rem;
