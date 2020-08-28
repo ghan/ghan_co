@@ -5,29 +5,14 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import routes from './data/routes';
 import Home from './pages/Home';
 import Zip from './pages/Zip';
 import FourOFour from './pages/FourOFour';
-import ExternalRoute from './components/ExternalRoute';
 
 export default function App() {
-  const list = routes.map((r) => {
-    if (r.hasOwnProperty('url')) {
-      return (
-        <Route key={r.tag} exact path={`/${r.tag}`}>
-          <ExternalRoute url={r.url} />
-        </Route>
-      );
-    } else {
-      return null;
-    }
-  });
-
   return (
     <Router>
       <Switch>
-        { list }
         <Route exact path="/zip">
           <Zip />
         </Route>

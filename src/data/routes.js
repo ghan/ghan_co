@@ -3,7 +3,7 @@ export default [
         "name": "Disney Non-Apologies",
         "date": "August 2020",
         "description": "Music video made for Vocabaret NYC's August 2020 show", 
-        "url": ""
+        "url": "https://youtu.be/Dtx3eKCVXD8"
     },
     {
         "tag": "cordyceps",
@@ -17,7 +17,7 @@ export default [
         "name": "Zip Magazine",
         "date": "2017",
         "description": "A mixed digital media magazine, distributed over email.",
-        "to": '/zip'
+        "url": '/zip'
     },
     {
         "tag": "powerboat",
