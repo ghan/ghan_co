@@ -9,7 +9,7 @@ export default [
         "tag": "cordyceps",
         "name": "Cordyceps EP",
         "date": "May 2020",
-        "description": "A short radio drama, recorded in May 2020.",
+        "description": "A short sci fi radio musical. A mysterious plague threatens humanity.",
         "url": "https://soundcloud.com/audioghan/sets/cordyceps-ep"
     },
     {

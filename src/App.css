@@ -1,6 +1,7 @@
 @import-normalize;
 
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
 @keyframes fadein {
   from { opacity: 0; }
@@ -15,6 +16,15 @@ html, body {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Forum', cursive;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #ffffff;
 }
 
 #root {
@@ -39,7 +49,30 @@ h1,h2,h3,h4,h5,h6 {
 #home h1 {
   font-family: 'Forum', cursive;
   opacity: 0.22;
-  font-size: 15vw;
+  font-size: 12rem;
   margin-top: 10rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+  line-height: 0.8;
+}
+
+#home .works-list {
+  font-family: "Dosis", sans-serif !important;
+  height: 0px;
+  text-align: left;
+  padding: 12px 20px;
+  overflow: hidden;
+  transition: height 1s ease-in-out;
+  background: rgb(4,2,45);
+  background: linear-gradient(144deg, rgba(4,2,45,0.4682247899159664) 0%, rgba(11,57,102,0.5494572829131652) 35%, rgba(44,190,154,0.6082808123249299) 100%);
+}
+
+#home .content-box {
+  cursor: default;
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+}
+#home .content-box:hover .works-list {
+  height: 400px;
+  overflow-y: scroll;
 }
