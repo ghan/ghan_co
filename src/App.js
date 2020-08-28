@@ -15,9 +15,7 @@ export default function App() {
   const list = routes.map((r) => {
     if (r.hasOwnProperty('url')) {
       return (
-        <Route key={r.tag} exact path={`/${r.tag}`}>
-          <ExternalRoute route={r} />
-        </Route>
+        <Route key={r.tag} exact path={`/${r.tag}`} component={() => { window.location = r.url; return null;} }/>
       );
     } else {
       return null;
